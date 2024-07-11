@@ -1,8 +1,5 @@
 
 
-**Look at the files and folder of the project**
-**Delete node_modules folder and package-lock.json file if exists**
-
 **Run this following commands**
 ### `npm install` 
 this will create node_modules folder and package-lock.json
