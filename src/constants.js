@@ -14,34 +14,29 @@ export const services = [
     },
 ];
 
-export const name = 'Nithin';
+export const name = 'Rohit';
 
 export const experiences = [
     {
-        'company': 'Inncircles Technologies',
-        'role': 'Product Developer',
-        'duration': 'April 2023 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
-        'points': [
-            'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
-            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+        role: 'Spring Boot Developer',
+        points: [
+            'Expertise in developing scalable backend solutions using Spring Boot framework.',
+            'Implemented RESTful APIs and microservices architecture for efficient application development.',
+            'Utilized Spring Security for implementing robust authentication and authorization mechanisms.',
+            'Integrated with databases like MySQL and MongoDB for data persistence.'
         ],
-        'url': 'https://inncircles.com/#home',
     },
     {
-        'company': 'AT & T',
-        'role': 'Technical Intern',
-        'duration': 'Jan 2023 - March 2023',
-        'logo': 'https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg',
-        'points': [
-            'Gained experience with Git version control contributing to the development and maintenance of code repositories.',
-            'Worked on the application dashboard, making it more user-friendly and improving its overall functionality📱.'
+        role: 'React Frontend Developer',
+        points: [
+            'Proficiency in building responsive and dynamic user interfaces using React library.',
+            'Implemented state management using Redux for centralized data flow in complex applications.',
+            'Experience with modern frontend tools like Webpack and Babel for bundling and transpiling.',
+            'Familiarity with UI component libraries such as Material-UI for rapid development.'
         ],
-        'url': 'https://www.att.com/',
     },
-]
+];
+
 
 
 
