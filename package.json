@@ -22,11 +22,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "postdeploy": "echo 'Deployed Successfully!'",
-
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "postdeploy": "echo 'Deployed Successfully!'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,6 +50,8 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+  "@babel/plugin-proposal-private-property-in-object": "^7.1.0"
+
   }
 }
